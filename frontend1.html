@@ -6,6 +6,8 @@
     <meta name="description" content="Front-end lab 1">
     <meta name="keywords" content="HTML, HTML5">
     
+    <script defer src="script.js"></script>
+
     <title>Кухар В. О. ІК-21</title>
 </head>
 <body>
@@ -15,8 +17,8 @@
         Освіта: Школа #1 ім. Т. Г. Шевченка,
         НТУУ КПІ ім. Ігоря Сікорського
     </p>
-    <h4>Хобі:</h4>
-    <ul>
+    <h4 id="element-4">Хобі:</h4>
+    <ul id="element-5">
         <li>Комп'ютерні ігри</li>
         <li>Рибалка</li>
         <li>Блог</li>
@@ -36,7 +38,14 @@
         У системі адміністративно-територіального устрою України Київ має спеціальний статус, визначений Конституцією, і не входить до складу жодної області, хоча і є адміністративним центром Київської області. Місце розташування центральних органів влади України, іноземних місій, штаб-квартир більшості підприємств і громадських об'єднань, що працюють в Україні.
     </p>
     <a href="https://kmr.gov.ua/" target="_blank">
-        <img src="https://lifeimg.pravda.com/images/doc/4/5/457f758-depositphotos-85021828-xl.jpg" alt="Фото Києва">
+        <img id="kyiv-image" src="https://lifeimg.pravda.com/images/doc/4/5/457f758-depositphotos-85021828-xl.jpg" alt="Фото Києва">
     </a>
+
+    <div>
+        <button id="add-image">Додати</button>
+        <button id="increase-image">Збільшити</button>
+        <button id="decrease-image">Зменшити</button>
+        <button id="remove-image">Видалити</button>
+    </div>
 </body>
 </html>
